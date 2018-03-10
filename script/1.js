@@ -8,11 +8,11 @@ myImage.onclick = function(){
 	console.log("I clicked on myImage");
 	if(myImage.getAttribute('src') === 'image.gif'){
 		myImage.setAttribute('src', 'image2.png')
-		myhead.textContent('I am Pascal\'s triangle. I am your dad! :p')
+		myhead.textContent ='I am Pascal\'s triangle. I am your dad! :p'
 	}
 	else{
 		myImage.setAttribute('src','image.gif')
-		myhead.textContent('Dont you dare call me that Pascal')
+		myhead.textContent= 'Dont you dare call me that Pascal'
 	}
 } 
 
