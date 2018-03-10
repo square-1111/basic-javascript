@@ -13,7 +13,7 @@ myImage.onclick = function(){
 
 var myButton = document.getElementsByTagName("button");
 console.log(myButton);
-mybutton.onclick = function(){
+myButton.onclick = function(){
 	console.log("i clicked on button");
 	alert('achya. sahi hai');
 }
